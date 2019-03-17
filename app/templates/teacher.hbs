@@ -1,0 +1,14 @@
+<h1> Teacher Data</h1>
+<table>
+
+	<th>
+		<td>Teacher Name </td>
+		<td> Age </td>
+	</th>
+	{{#each model as |teacher|}}
+	<tr>
+		<td> {{teacher.name}}</td>
+		<td> {{teacher.age}}</td>
+	</tr>
+	{{/each}}
+</table>
